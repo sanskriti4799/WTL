@@ -1,0 +1,78 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Customer Details Form</title>
+<link rel="stylesheet" type="text/css" href="form2.css">
+	</head>
+	<body bgcolor="yellow">
+		<form class="container">
+			<hr>
+			<h2 class="h2">Account Type</h2>
+			<hr>
+			<strong>Please select the type of Account.</strong>
+			<select>
+				<option>Savings Account</option><option>Checkings Account</option><option>Money Market Account</option>
+			</select>
+		
+			<hr>
+			<h2>Contact Information</h2>
+			<hr>
+			<p>
+				<label>Title</label>
+				<select>
+					<option>Mr.</option>
+					<option>Mrs.</option>
+				</select>
+				<label>First Name</label>
+				<input type="text" name="first_name" required="first_name cannot be empty">
+				<label>Middle Name</label>
+				<input type="text" name="middle_name" required="middle_name cannot be empty">
+				<label>Last Name</label>
+				<input type="text" name="last_name" required="last_name cannot be empty">
+			</p>
+			<p>
+				<label>Telephone</label>
+				<input type="Telephone" name="Telephone" placeholder="### ### ####" required="Telephone">
+			<p>
+				<label>Email</label>
+				<input type="Email" name="Email" required="Email cannot be empty">
+			</p>
+			<p>
+				<label>Home address</label><br>
+				<input type="text" name="street_address" placeholder="Street Address"><br>
+				<input type="text" name="city" placeholder="City " required="City">
+				<select><option>Banglore</option><option>Delhi</option><option>Orissa</option></select><br>
+				<input type="text" name="Pincode" placeholder="Pincode " required="Pincode">
+				<select><option>India</option><option>United States of America</option><option>Germany</option></select><br>
+			</p>
+			<hr>
+			<h2>Identification</h2>
+			<hr>
+			<p>
+			<label>Citizenship</label><br>
+			<label><input type="radio" name="Citizenship">Indian</label>
+			<label><input type="radio" name="Citizenship">U.S.</label>
+			<label><input type="radio" name="Citizenship">Europian</label>
+			<br>
+			<label>DOB</label>
+			<input type="text" name="dob" placeholder="MM/DD/YYYY">
+			<label>Marital Status</label>
+			<select><option>Married</option><option>Unmarried</option><option>Widowed</option></select>
+			<br>
+			<label>Occupation</label>
+			<input type="text" name="Occupation">
+		</p>
+		<hr>
+		<h2>Terms & Conditions</h2>
+		<hr>
+		<p>
+			<p>By completing this account registration form, you agree to the terms and conditions that govern your account and your relationship with the bank. Please check the box below to confirm agreement before sending the bank account registration information.</p>
+			<input type="checkbox" name="checkbox" required="Tick the Checkbox">
+			<label>i agree to the terms and conditions.</label>
+		<br>
+		<br>
+<button><a href="for1.html">Submit</a></button>
+</p>
+		</form>
+	</body>
+</html>
